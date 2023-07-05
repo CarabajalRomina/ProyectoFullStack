@@ -1,0 +1,186 @@
+header{
+    position: sticky;
+    top: 0;
+}
+body{
+    background-color: rgb(246, 245, 243);
+}
+
+.navbar{
+    background-color: rgba(112, 6, 210, 0.9);
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.dropdown-item{
+    color: blueviolet;
+    font-size: 1.5rem;
+}
+
+.navbar img{
+    width: 10rem;
+    margin-right: 40px;
+}
+
+h1{
+    font-size: 3rem;
+    margin: auto;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+    border-bottom: solid 1.5px;
+    color: rgb(96, 95, 93);
+    margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+
+
+.errorCarga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.spinner-border{
+    width: 60px;
+    height: 60px;
+
+}
+
+.btnVioleta{
+    background-color: rgb(123, 66, 239);
+    color: aliceblue;
+    font-size: 1.2rem;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: none;
+}
+
+.btnVioleta:hover{
+    background-color: rgb(149, 102, 243);
+    transform: scale(1.01,1.01);
+    color: aliceblue;
+  
+}
+
+.table-responsive{
+    margin-top: 30px;
+    background-color: rgba(149, 102, 243,.2);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: antiquewhite;
+}
+
+.table-bordered{
+    border: solid rgb(149, 102, 243);
+    color: rgb(96, 95, 93);
+}
+td{
+    text-align: center;
+}
+
+td img{
+    width: 120px;
+    height: 120px;
+    border-radius: 100px;
+}
+
+
+.btn{
+    margin: 5px;
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+
+
+/*------Formularios*/
+
+form{
+
+    margin: auto;
+    width: 60%;
+    background-color: rgba(149, 102, 243,.2);
+    padding: 20px;
+    border: solid rgb(149, 102, 243) 1px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mb-3{
+    width: 80%;
+    padding: 10px;
+}
+
+.mb-3 label{
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    color: rgb(151, 151, 146);
+}
+
+.mb-3 input{
+    border: solid rgb(156, 57, 255) 1px;
+
+}
+
+.mb-3 input:hover{
+    border: solid rgb(156, 57, 255) 2px;
+}
+
+
+.campoUrl{
+    display: flex;
+}
+
+.campoFotoPerfil{
+    width: 80%;
+}
+
+.btnLimpiar{
+    background-color: rgb(84, 22, 110);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: auto;
+    border: none;
+    width: 110px;
+    height: 50px;
+    border-radius: 40px;
+    color: aliceblue;
+    margin-top: 30px;
+
+}
+
+.btnLimpiar:hover{
+    background-color: rgba(84, 22, 110, 0.437);
+
+}
+
